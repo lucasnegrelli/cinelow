@@ -1,0 +1,52 @@
+
+h1, h3, h5 {
+  font-family: "Georgia", sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+body, ul, figure {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  animation: colorchange 22s infinite;
+-webkit-animation: colorchange 22s infinite;
+}
+
+div {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+button{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+li {
+  text-decoration: none;
+}
+
+@keyframes colorchange
+{
+  0%   {background: #C4C1B9;}
+  25%  {background: #C9C9C4;}
+  50%  {background: #B1B3AA;}
+  75%  {background: #D3C8C8;}
+  100% {background: #BFC5BD;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: #C4C1B9;}
+  25%  {background: #C9C9C4;}
+  50%  {background: #B1B3AA;}
+  75%  {background: #D3C8C8;}
+  100% {background: #BFC5BD;}
+}
